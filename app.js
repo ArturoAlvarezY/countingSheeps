@@ -1,4 +1,4 @@
-const countingSheepsAndWolves = (sheeps) =>
+export const countingSheepsAndWolves = (sheeps) =>
 {    let sheepCount = 0;
 
     for (let i = 0; i < sheeps.length; i++) {
@@ -16,4 +16,3 @@ const countingSheepsAndWolves = (sheeps) =>
 };
 
 
-console.log(countingSheepsAndWolves([true, true, true, true, false, false]));
